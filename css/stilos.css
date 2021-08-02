@@ -1,0 +1,424 @@
+body {
+  margin: 20px;
+  padding-top: 20px;
+  background-color: black;
+}
+
+header h1 {
+  font-family: "Lobster", cursive;
+  text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+  font-size: 60px;
+  color: #15a715;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.header {
+  font-family: "Lobster", cursive;
+  background: linear-gradient(0deg, #0d770b 0%, #4fec19 100%);
+  border-radius: 117px 9px 200px 54px;
+  -moz-border-radius: 117px 9px 200px 54px;
+  -webkit-border-radius: 117px 9px 200px 54px;
+  font-weight: 0;
+  min-height: 80px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.header .header__presentacion {
+  margin-left: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+.header .header__navegador ul {
+  padding-right: 200px;
+  padding-top: 80px;
+}
+.header .header__navegador ul li:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.header .header__navegador ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.carousel .img {
+  border-radius: 70px 70px 70px 70px;
+  -moz-border-radius: 70px 70px 70px 70px;
+  -webkit-border-radius: 70px 70px 70px 70px;
+  border: 0px none #ffff00;
+}
+.carousel .carousel-caption h5 {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  color: black;
+}
+.carousel .carousel-caption p {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  color: black;
+}
+.carousel .carousel-caption1 p {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  color: white;
+}
+.carousel .carousel-caption2 p {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  color: white;
+}
+
+.cotizaciones {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  justify-content: center;
+}
+
+.quienesSomos {
+  padding-top: 10px;
+}
+
+.card-img-overlay {
+  text-align: center;
+  color: white;
+  display: flex;
+  text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 0;
+  font-size: 45px;
+  font-family: "Lobster", cursive;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.card-img-overlay .card-title1 {
+  font-size: 80px;
+}
+
+.consejoPublicidad {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  justify-content: space-between;
+}
+.consejoPublicidad .card-title1 {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 35px;
+  text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+}
+.consejoPublicidad .card-text1 {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+  text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+}
+.consejoPublicidad a {
+  background: linear-gradient(0deg, #0d770b 0%, #4fec19 100%);
+  font-family: "Lobster", cursive;
+  text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+  font-size: 30px;
+}
+
+.videos {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  justify-content: space-between;
+}
+.videos .videos__queEs {
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+.videos .videos__inversion {
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+.videos .videos__chia {
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  justify-content: space-between;
+  background: radial-gradient(circle, #0d5709 3%, #52f409 39%, #2ca323 80%);
+  border-radius: 117px 9px 200px 54px;
+  -moz-border-radius: 117px 9px 200px 54px;
+  -webkit-border-radius: 117px 9px 200px 54px;
+  padding: 250px;
+  padding-top: 150px;
+}
+.footer .footer_SocialMedia a img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+.footer .footer_SocialMedia a img:hover {
+  transform: scale(1.5);
+  transition-duration: 0.6s;
+}
+.footer .footer__consultas {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+  color: black;
+}
+.footer form {
+  width: 40%;
+  padding: 1rem;
+}
+.footer .form-check-label {
+  font-size: 25px;
+  font-family: "Lobster", cursive;
+  color: black;
+}
+.footer .col-form-label {
+  font-size: 25px;
+  font-family: "Lobster", cursive;
+  color: black;
+}
+.footer .form-label {
+  font-size: 25px;
+  font-family: "Lobster", cursive;
+  color: black;
+}
+.footer .form-check-input {
+  background-color: #f0f5f0;
+  border-color: #f0f5f0;
+}
+.footer .form-check-input:hover {
+  background-color: green;
+  border-color: green;
+}
+.footer S .form-check-input:active {
+  background-color: green;
+  border-color: green;
+}
+.footer .btn {
+  background-color: green;
+  border-color: black;
+  border-radius: 2px;
+  font-family: "Lobster", cursive;
+  text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+  font-size: 30px;
+}
+.footer .btn:hover {
+  background-color: #46cc46;
+  border-color: green;
+}
+
+.contenedorCards {
+  padding-top: 15px;
+}
+
+.card-title {
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  color: black;
+}
+
+.card-text {
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+  color: black;
+}
+
+.card-body {
+  background: radial-gradient(circle, #2e832a 3%, #52f409 39%, #2ca323 80%);
+}
+
+@media (max-width: 1600px) {
+  .ads img {
+    display: none;
+  }
+
+  .videos__inversion {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-between;
+    background: radial-gradient(circle, #0d5709 3%, #52f409 39%, #2ca323 80%);
+    border-radius: 117px 9px 200px 54px;
+    -moz-border-radius: 117px 9px 200px 54px;
+    -webkit-border-radius: 117px 9px 200px 54px;
+    padding: 250px;
+    padding-top: 150px;
+  }
+  .footer .footer_SocialMedia a img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .footer .footer_SocialMedia a img:hover {
+    transform: scale(1.5);
+    transition-duration: 0.6s;
+  }
+  .footer .footer__consultas {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Lobster", cursive;
+    font-size: 35px;
+    color: black;
+  }
+  .footer form {
+    width: 60%;
+    padding: 1rem;
+  }
+  .footer .form-check-label {
+    font-size: 22px;
+    font-family: "Lobster", cursive;
+    color: black;
+  }
+  .footer .col-form-label {
+    font-size: 22px;
+    font-family: "Lobster", cursive;
+    color: black;
+  }
+  .footer .form-label {
+    font-size: 22px;
+    font-family: "Lobster", cursive;
+    color: black;
+  }
+}
+@media (max-width: 1600px) and (max-width: 1024px) {
+  .videos__chia {
+    display: none;
+  }
+
+  .videos__queEs {
+    display: none;
+  }
+
+  .card-text1 {
+    font-size: 25px;
+  }
+
+  .carouselDesktop {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    padding: 10px;
+    padding-top: 10px;
+  }
+  .footer .form-check-label {
+    font-size: 20px;
+    font-family: "Lobster", cursive;
+    color: black;
+  }
+  .footer .col-form-label {
+    font-size: 20px;
+    font-family: "Lobster", cursive;
+    color: black;
+  }
+  .footer .form-label {
+    font-size: 20px;
+    font-family: "Lobster", cursive;
+    color: black;
+  }
+  .footer form {
+    width: 80%;
+  }
+
+  .footer .footer__consultas {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Lobster", cursive;
+    font-size: 30px;
+    color: black;
+  }
+
+  .footer .footer_SocialMedia {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
+@media (max-width: 1600px) and (max-width: 1024px) and (max-width: 731px) {
+  .card-text1 {
+    font-size: 15px;
+  }
+
+  .card-img-overlay .card-title1 {
+    font-size: 30px;
+  }
+
+  .header {
+    border-radius: 0%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header li {
+    display: inline-flexbox;
+  }
+}
+@media (max-width: 1600px) and (max-width: 1024px) {
+  .contenedorCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .contenedorCards .card {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=stilos.css.map */

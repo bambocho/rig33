@@ -1,0 +1,42 @@
+//carrousel home
+
+.carousel {
+        display: flex;
+		flex-direction:flex;	
+		justify-content:center;
+		padding-top: 10px;
+        
+
+        .img {
+            border-radius: 70px 70px 70px 70px;
+			-moz-border-radius: 70px 70px 70px 70px;
+			-webkit-border-radius: 70px 70px 70px 70px;
+			border: 0px none #ffff00; 
+            
+        }
+        .carousel-caption {
+            
+            h5 {
+                font-family: $tipoTexto;
+                font-size: 30px;
+                color: black; 
+            }
+            p {
+                font-family:$tipoTexto;
+                font-size: 30px;
+                color: black; 
+            }
+        }
+
+        .carousel-caption1 p {
+            font-family: $tipoTexto;
+            font-size: 30px;
+            color: $colorTexto;
+        }
+    
+        .carousel-caption2 p {
+            font-family: $tipoTexto;
+            font-size: 30px;
+            color: $colorTexto;
+        }
+}

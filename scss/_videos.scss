@@ -1,0 +1,36 @@
+// los 3 videos de you tube que es bitcon, inversiones y chia coin
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-between;
+
+    .videos__queEs {
+        text-align: center;
+		align-items: center;
+		color:$colorTexto;
+        font-family: $tipoTexto;
+		font-size: 30px;
+       
+    }
+
+    .videos__inversion {
+        text-align: center;
+		align-items: center;
+		color:$colorTexto;
+        font-family: $tipoTexto;
+		font-size: 30px;
+       
+    }
+
+    .videos__chia 
+    {
+        text-align: center;
+		align-items: center;
+		color:$colorTexto;
+        font-family: $tipoTexto;
+		font-size: 30px;
+       
+    }
+}

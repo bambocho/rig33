@@ -1,0 +1,50 @@
+// header logos y menus
+header {
+    h1 {
+        font-family: 'Lobster', cursive;  
+        text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+        font-size: 60px;
+        color:rgb(21, 167, 21) ;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+.header {
+        font-family: 'Lobster', cursive;
+		background: linear-gradient(0deg, rgba(13,119,11,1) 0%, rgba(79,236,25,1) 100%);
+		border-radius: 117px 9px 200px 54px;
+		-moz-border-radius: 117px 9px 200px 54px;
+		-webkit-border-radius: 117px 9px 200px 54px;
+		font-weight: 0;
+		min-height: 80px;
+		font-size: 30px;
+		display: flex;  
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+// menu
+        li {
+            display: inline-block;
+            padding: 0 10px;  
+        }
+
+        .header__presentacion {
+            margin-left: 30px;
+            display: flex;
+		    align-items: flex-start;
+        }
+        .header__navegador ul {
+            padding-right: 200px;
+	        padding-top:80px;
+            li:hover{
+                transform: scale(1.1);
+                transition-duration: 1s;
+            }  
+            a {
+                text-decoration: none;
+                color: black;
+               
+            }
+        }
+}
